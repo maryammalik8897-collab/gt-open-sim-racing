@@ -1,0 +1,22 @@
+[gd_project]
+config_version=5
+
+[application]
+config/name="Universal Open Simulator"
+run/main_scene="res://Main.tscn"
+
+[dotnet]
+project/assembly_name="UniversalOpenSimulator"
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=720
+
+[input]
+steer_left={"deadzone":0.05,"events":[{"type":"InputEventKey","keycode":65}]}
+steer_right={"deadzone":0.05,"events":[{"type":"InputEventKey","keycode":68}]}
+throttle={"deadzone":0.05,"events":[{"type":"InputEventKey","keycode":87}]}
+brake={"deadzone":0.05,"events":[{"type":"InputEventKey","keycode":83}]}
+pitch_up={"deadzone":0.05,"events":[{"type":"InputEventKey","keycode":73}]}
+pitch_down={"deadzone":0.05,"events":[{"type":"InputEventKey","keycode":75}]}
+reset={"deadzone":0.05,"events":[{"type":"InputEventKey","keycode":82}]}
